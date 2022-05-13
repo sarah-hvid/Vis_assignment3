@@ -1,6 +1,6 @@
 # Assignment 3 - Transfer learning + CNN classification
  
- Link to github of this assignment: 
+ Link to github of this assignment: https://github.com/sarah-hvid/Vis_assignment3
 
 ## Assignment description
 In this assignment transfer learning with a pretrained CNN should be used to build an image classifier. ```VGG16``` should be used for feature extraction, and classification should be done on the ```cifar10``` dataset.  
