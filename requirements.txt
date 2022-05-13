@@ -1,0 +1,8 @@
+# packages
+sys
+os
+argparse
+tensorflow
+scikit-learn
+numpy
+matplotlib
