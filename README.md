@@ -1,9 +1,9 @@
 # Assignment 3 - Transfer learning + CNN classification
  
- Link to github of this assignment: https://github.com/sarah-hvid/Vis_assignment3
+Link to GitHub of this assignment: https://github.com/sarah-hvid/Vis_assignment3
 
 ## Assignment description
-In this assignment transfer learning with a pretrained CNN should be used to build an image classifier. ```VGG16``` should be used for feature extraction, and classification should be done on the ```cifar10``` dataset.  
+In this assignment transfer learning with a pretrained CNN should be used to build an image classifier. ```VGG16``` should be used for feature extraction, and classification should be done on the ```cifar10``` dataset.\
 The full assignment description is available in the ```assignment3.md``` file. 
 
 ## Methods
@@ -11,19 +11,24 @@ This problem relates to classification of images. ```VGG16``` is used to perform
 As input, the user may specify the following parameters:
   - A name for the plot and classification report using flag -n 
   - How many epochs to run using flag -epochs
-  - The batch size using flag -batch_size
+  - The batch size using flag -batch_size\
+\
 If unspecified, standard values will be used with plot name ```plot_history``` and report name ```report```, 10 epochs and a batch size of 128. A plot of the loss and accuracy is saved in the ```output``` folder. The classification report is also saved in the ```output``` folder.
 
 
 ## Usage
-In order to run the scripts, certain modules need to be installed. These can be found in the ```requirements.txt``` file. The folder structure must be the same as in this GitHub repository (ideally, clone the repository). The current working directory when running the script must be the one that contains the ```data```, ```output``` and ```src``` folder. Examples of how to run the scripts from the command line: 
+In order to run the scripts, certain modules need to be installed. These can be found in the ```requirements.txt``` file. The folder structure must be the same as in this GitHub repository (ideally, clone the repository). The current working directory when running the script must be the one that contains the ```data```, ```output``` and ```src``` folder.\
+Examples of how to run the scripts from the command line:
 
-Without any specifications::
-- python src/transfer_learning.py
-    
+__Transfer learning script__\
+Without any specifications:
+```bash
+python src/transfer_learning.py
+```
 With all specifications:
-- python src/transfer_learning.py -n 4_epochs_256_batch -epochs 4 -batch_size 256
-  
+```bash
+python src/transfer_learning.py -n 4_epochs_256_batch -epochs 4 -batch_size 256
+```
 Examples of the outputs of the scripts can be found in the ```output``` folder. 
 
 ## Results
